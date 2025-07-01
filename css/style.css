@@ -40,6 +40,16 @@ html {
   color: var(--black);
 }
 
+.section-text {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--gray);
+}
+
+img {
+  width: 100%;
+}
+
 /* ======================= HEADER ======================= */
 
 .header .container {
@@ -195,4 +205,53 @@ html {
 .skills-card-4 img {
   width: 38.2rem;
   height: 25.5rem;
+}
+
+/* ======================= ABOUT ======================= */
+
+.about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.about-info .section-title {
+  margin-bottom: 2.3rem;
+}
+
+.about-info .section-text {
+  margin-bottom: 4.4rem;
+}
+
+.about-list {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+}
+
+.about-item {
+  text-align: center;
+}
+
+.about-item h3 {
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 167%;
+  color: #2a3246;
+}
+
+.about-item span {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--gray);
+}
+
+.about-img {
+  width: 100%;
+  text-align: right;
+}
+
+.about-img img {
+  width: 500px;
+  max-width: 100%;
 }
